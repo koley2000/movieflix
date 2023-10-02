@@ -1,0 +1,36 @@
+.btn:hover {
+    color: #E83030;
+}
+
+.btn{
+    color: white;
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (max-width:1024px){
+    .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0rem;
+    }
+    /* .col-1{
+        margin-right: 0;
+    } */
+    #content-box{
+        overflow-x: hidden;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px){
+    #content-box{
+        overflow-x: hidden;
+    }
+    .col-1{
+        margin: 1rem 1em;
+    }
+    
+    .row{
+        margin-left: 4em;
+    }
+}

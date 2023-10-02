@@ -1,0 +1,30 @@
+.navbar-brand> h3{
+    color: #E83030;
+}
+
+.btn {
+    border-color: #E83030;
+    background-color: #E83030;
+}
+
+.btn:hover {
+    border-color: #E83030;
+}
+
+.btn-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover>.btn-link {
+    color: #E83030;
+}
+
+.form-control {
+    border: 1px solid #E83030;
+}
+
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #E83030;
+}

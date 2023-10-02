@@ -1,0 +1,39 @@
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) {
+    .container {
+        margin-top: 4.0em;
+    }
+
+    #details p {
+        margin-bottom: 1.3rem;
+        font-size: 1.1rem;
+        color: #cfd6e1;
+    }
+
+    div#details {
+        width: 100%;
+    }
+
+
+    #imgBox {
+        width: 32rem;
+    }
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (max-width:1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #imgBox {
+        width: 15rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+    #details p{
+        margin-bottom: 1rem;
+    }
+
+}
