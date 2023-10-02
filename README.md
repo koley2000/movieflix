@@ -7,7 +7,7 @@ Website Link:
 
 | Technology                                                                             | Description                                                               |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [React.js](https://react.dev/)                                                         | A React framework for building web applications.                          |
-| [Bootstrap](https://getbootstrap.com/)                                                 | A free and open-source tool collection for creating responsive websites   |               |
+| [React.js](https://react.dev/)                                                         | A open-source front-end JavaScript library for building user interfaces   |                     |
+| [Bootstrap](https://getbootstrap.com/)                                                 | A free and open-source tool collection for creating responsive websites   | 
 | [TMDb API](https://www.themoviedb.org)                                                 | A popular, user editable database for movies and TV shows.                |
 
