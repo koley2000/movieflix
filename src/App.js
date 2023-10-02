@@ -5,7 +5,7 @@ import movContext from './context/movContext';
 import React, { useState, useEffect, useContext } from 'react';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
