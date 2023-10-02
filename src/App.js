@@ -5,7 +5,7 @@ import movContext from './context/movContext';
 import React, { useState, useEffect, useContext } from 'react';
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -42,8 +42,8 @@ function App() {
       <Router>
         <Navbar setMode={setMode} setSearchValue={setSearchValue} setPage={setPage}/>
         <Routes>
-          <Route path='/' element={<Movcontent title={title} page={page} setPage={setPage}/>} />
-          <Route path="/moviedetails" element={<MovDetails/>} />
+          <Route exact path='/' element={<Movcontent title={title} page={page} setPage={setPage}/>} />
+          <Route exact path="/moviedetails" element={<MovDetails/>} />
         </Routes>
       </Router>
     </>
