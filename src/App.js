@@ -42,8 +42,8 @@ function App() {
       <Router>
         <Navbar setMode={setMode} setSearchValue={setSearchValue} setPage={setPage}/>
         <Routes>
-          <Route exact path='/' element={<Movcontent title={title} page={page} setPage={setPage}/>} />
-          <Route exact path="/moviedetails" element={<MovDetails/>} />
+          <Route path='/movieflix' element={<Movcontent title={title} page={page} setPage={setPage}/>} />
+          <Route path="/movieflix/moviedetails" element={<MovDetails/>} />
         </Routes>
       </Router>
     </>
