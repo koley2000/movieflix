@@ -1,7 +1,7 @@
 # MovieFlix
 A movie review website that allows users to search for and view information about movies. Users can also view popular, trending and upcoming movies.
 
-Website Link: 
+Website Link: https://movieflix-pravat.vercel.app/
 
 # Tech Stack
 
