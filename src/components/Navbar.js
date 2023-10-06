@@ -24,7 +24,7 @@ export default function Navbar(props) {
         props.setSearchValue('');
         props.setMode('now_playing');
         props.setPage(1);
-        navigate(-1);
+        navigate("/");
     }
 
     const handlePopular = (e) => {
@@ -32,7 +32,7 @@ export default function Navbar(props) {
         props.setSearchValue('');
         props.setMode('popular');
         props.setPage(1);
-        navigate(-1);
+        navigate("/");
     }
 
     const handleComing = (e) => {
@@ -40,7 +40,7 @@ export default function Navbar(props) {
         props.setSearchValue('');
         props.setMode('upcoming');
         props.setPage(1);
-        navigate(-1);
+        navigate("/");
     }
 
 
@@ -55,13 +55,13 @@ export default function Navbar(props) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/" onClick={handlePlaying}>Now Playing</Link>
+                                <button className="nav-link active"  onClick={handlePlaying}>Now Playing</button>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/" onClick={handlePopular} >Popular</Link>
+                            <button className="nav-link active"  onClick={handlePopular} >Popular</button>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/" onClick={handleComing}>Upcoming</Link>
+                            <button className="nav-link active"  onClick={handleComing}>Upcoming</button>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
